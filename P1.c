@@ -117,7 +117,7 @@ void inputinitialization(int a,int m[])
                 }
                 else
                 {
-                    current->in1=m[i1];
+                    current->in2=m[i1];
                     c1=c1+1;
                     i1=i1+1;
                 }
@@ -133,7 +133,7 @@ int gateoperation(int ga,int i1,int i2)
 {
     switch (ga)
     {
-        case 1 :    if(i1==0)
+        case 1 :    if(i1==0 || i2==0)
                     {
                         return 1;
                     }
