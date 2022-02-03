@@ -1,1 +1,1 @@
-# digital
+Digital circuit testing using C 
